@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Water Bottle",
+    "id": "water_bottle_1",
+    "description": "Buy the best water bottle.",
+    "price": "100.00"
+  },
+  {
+    "title": "IPhone 12",
+    "id": "iphone_12",
+    "description": "Apple IPhone 12",
+    "price": "1000000.00"
+  }
+]
