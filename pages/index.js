@@ -18,6 +18,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.css" />
       </Head>
       <Container className={styles.homeContainer}>
+        <h1 style={{ textAlign: 'center' }}>Products</h1>
         <div className={styles.grid}>
           {products.map(product => {
             return (
@@ -31,7 +32,7 @@ export default function Home() {
                   </a>
                 </Link>
                 <p>
-                  <button className="snipcart-add-item"
+                  <button className="snipcart-add-item button-3"
                     data-item-id={product.id}
                     data-item-image={product.image}
                     data-item-name={product.title}
