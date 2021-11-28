@@ -13,6 +13,9 @@ export default function Home() {
     <Layout>
       <Head>
         <title>ShopHere Store</title>
+        <link rel="preconnect" href="https://app.snipcart.com" />
+        <link rel="preconnect" href="https://cdn.snipcart.com" />
+        <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.css" />
       </Head>
       <Container className={styles.homeContainer}>
         <div className={styles.grid}>
@@ -42,6 +45,8 @@ export default function Home() {
           })}
         </div>
       </Container>
+      <script async src="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.js" />
+      <div hidden id="snipcart" data-api-key={`NWYzYzc0MjMtOTZlZC00MjE0LWEwMzMtOTc1MDYyZDYyMmU1NjM3NzM2Mzg5MTgwMjAwMzc3`} data-config-modal-style="side" />
     </Layout>
   )
 }
