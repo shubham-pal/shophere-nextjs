@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 ​
-import { FaShoppingCart } from "react-icons/fa";
+import { FaShoppingCart, FaUser } from "react-icons/fa";
 ​
 import Container from "../Container";
 ​
@@ -24,13 +24,22 @@ const Nav = ({ children }) => {
           </Link>
         </p>
         <p className={styles.description}>
+          <a 
+            className="snipcart-customer-signin" 
+            href="#"
+            style={{ textDecoration: "none" }}>
+            <FaUser />
+            <strong className="sr-only">My Account</strong>
+          </a>
+        </p>
+        <p className={styles.description}>
           <a
             className="snipcart-checkout snipcart-summary"
             href="#"
             style={{ textDecoration: "none" }}
           >
             <FaShoppingCart />
-            <strong className="sr-only">Cart</strong>
+            {/* <strong className="sr-only">Cart</strong> */}
             <span className="snipcart-total-price">
               {new Intl.NumberFormat("en-US", {
                 style: "currency",

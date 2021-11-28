@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { FaShoppingCart } from "react-icons/fa";
+import { FaShoppingCart, FaUser } from "react-icons/fa";
 
 import Container from "../Container/Container";
 import styles from "./Nav.module.css";
@@ -21,14 +21,21 @@ const Nav = ({ children }) => {
             <a>ShopHere Store</a>
           </Link>
         </p>
-        <p className={styles.description}>
-          <a
+        <div className={styles.description} style={{ display: 'flex', margin: '5px' }}>
+          <a id="1"
+            className="snipcart-customer-signin" 
+            href="#"
+            style={{ textDecoration: "none" }}>
+            <FaUser />
+            {/* <strong className="sr-only">My Account</strong> */}
+          </a>
+          <a id="2"
             className="snipcart-checkout snipcart-summary"
             href="#"
             style={{ textDecoration: "none" }}
           >
             <FaShoppingCart />
-            <strong className="sr-only">Cart</strong>
+            {/* <strong className="sr-only">Cart</strong> */}
             <span className="snipcart-total-price">
               {new Intl.NumberFormat("en-US", {
                 style: "currency",
@@ -36,7 +43,7 @@ const Nav = ({ children }) => {
               }).format(total)}
             </span>
           </a>
-        </p>
+        </div>
       </Container>
     </nav>
   );
