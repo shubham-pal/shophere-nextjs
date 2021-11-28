@@ -3,12 +3,14 @@
     "title": "Water Bottle",
     "id": "water_bottle_1",
     "description": "Buy the best water bottle.",
-    "price": "100.00"
+    "price": "100.00",
+    "image": "https://cdn.shopify.com/s/files/1/0104/9211/7092/products/1_a2d70ab0-1134-401a-84ac-e33c7fc361e8_800x.jpg?v=1626851955"
   },
   {
     "title": "IPhone 12",
     "id": "iphone_12",
     "description": "Apple IPhone 12",
-    "price": "1000000.00"
+    "price": "1000000.00",
+    "image": "https://www.apple.com/newsroom/images/product/iphone/geo/apple_iphone-12_2-up_geo_10132020_inline.jpg.large.jpg"
   }
 ]
