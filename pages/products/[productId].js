@@ -27,7 +27,7 @@ export default function Product({ product }) {
             <p>₹{ product.price }</p>
 
             <p>
-              <button className="snipcart-add-item"
+              <button className="snipcart-add-item button-3"
                 data-item-id={product.id}
                 data-item-image={product.image}
                 data-item-name={product.title}

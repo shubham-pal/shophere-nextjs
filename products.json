@@ -10,7 +10,28 @@
     "title": "IPhone 12",
     "id": "iphone_12",
     "description": "Apple IPhone 12",
-    "price": "1000000.00",
+    "price": "70000.00",
     "image": "https://www.apple.com/newsroom/images/product/iphone/geo/apple_iphone-12_2-up_geo_10132020_inline.jpg.large.jpg"
+  },
+  {
+    "title": "Printed TShirt",
+    "id": "tshirt_1",
+    "description": "Solid Red Printed TShirt: Man With a Plan",
+    "price": "599.00",
+    "image": "https://cdn.shopify.com/s/files/1/1002/7150/products/New-Mockups---no-hanger---TShirt-Man-with-a-plan---prof.jpg?v=1627906686"
+  },
+  {
+    "title": "Black TShirt",
+    "id": "tshirt_2",
+    "description": "Men Black Cotton TShirt",
+    "price": "499.00",
+    "image": "https://img.joomcdn.net/a24f70d27ca2552e92aa45c9005827c82b915156_original.jpeg"
+  },
+  {
+    "title": "Denim Jeans",
+    "id": "jeans_1",
+    "description": "Men Denim Jeans",
+    "price": "999.00",
+    "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jeans-2-1615561459.jpg?crop=0.486xw:0.971xh;0.258xw,0.0160xh&resize=640:*"
   }
 ]
